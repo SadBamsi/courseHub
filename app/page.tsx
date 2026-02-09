@@ -1,7 +1,7 @@
-import Link from "next/link";
+import { Welcome } from "./modules/welcome";
 
 const Home = async () => {
-  return <Link href="/courses">Go to Courses</Link>;
+  return <Welcome />;
 };
 
 export default Home;
